@@ -3,7 +3,7 @@ version: 0.2
 env:
   variables:
     AWS_ACCOUNT_ID: 073813292468
-    REPOSITORY_NAME: green
+    REPOSITORY_NAME: red
 
 phases:
   install:

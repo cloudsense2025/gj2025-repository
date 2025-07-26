@@ -2,8 +2,8 @@ FROM public.ecr.aws/docker/library/alpine
 
 WORKDIR /app
 
-COPY green .
+COPY red .
 
-RUN chmod +x green
+RUN chmod +x red
 
-CMD ["./green"]
+CMD ["./red"]
