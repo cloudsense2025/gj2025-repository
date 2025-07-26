@@ -24,7 +24,7 @@ spec:
         effect: NoSchedule
       containers:
       - name: green
-        image: 073813292468.dkr.ecr.ap-northeast-2.amazonaws.com/green:1.0.0
+        image: 073813292468.dkr.ecr.ap-northeast-2.amazonaws.com/green:20250726080200
         imagePullPolicy: Always
         envFrom:
         - secretRef:
